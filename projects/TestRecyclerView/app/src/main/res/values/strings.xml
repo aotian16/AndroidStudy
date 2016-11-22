@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestRecyclerView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_recycler_view1">RecyclerView1</string>
+</resources>
