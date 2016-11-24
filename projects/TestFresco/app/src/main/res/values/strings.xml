@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestFresco</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_circle_view">CircleViewActivity</string>
+</resources>
