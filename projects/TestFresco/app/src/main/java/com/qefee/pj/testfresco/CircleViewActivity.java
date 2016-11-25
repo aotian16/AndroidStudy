@@ -31,8 +31,14 @@ public class CircleViewActivity extends AppCompatActivity {
 
 
         Uri uri = Uri.parse("https://pic4.zhimg.com/03b2d57be62b30f158f48f388c8f3f33_b.png");
-        SimpleDraweeView imageView = (SimpleDraweeView) findViewById(R.id.imageView);
-        imageView.setImageURI(uri);
+        SimpleDraweeView commonImageView = (SimpleDraweeView) findViewById(R.id.commonImageView);
+        commonImageView.setImageURI(uri);
+
+        SimpleDraweeView circleImageView = (SimpleDraweeView) findViewById(R.id.circleImageView);
+        circleImageView.setImageURI(uri);
+
+        SimpleDraweeView roundedImageView = (SimpleDraweeView) findViewById(R.id.roundedImageView);
+        roundedImageView.setImageURI(uri);
     }
 
 }
